@@ -26,7 +26,7 @@ RUN gpg --keyserver pool.sks-keyservers.net --recv-keys \
 ENV TOMCAT_MAJOR 6
 ENV TOMCAT_VERSION 6.0.45
 ENV CMDBUILD_VERSION 2.2.0
-ENV TOMCAT_TGZ_URL https://www.apache.org/dist/tomcat/tomcat-$TOMCAT_MAJOR/v$TOMCAT_VERSION/bin/apache-tomcat-$TOMCAT_VERSION.tar.gz
+ENV TOMCAT_TGZ_URL https://archive.apache.org/dist/tomcat/tomcat-6/v$TOMCAT_VERSION/bin/apache-tomcat-$TOMCAT_VERSION.tar.gz
 ENV CMDBUILD_URL http://downloads.sourceforge.net/project/cmdbuild/$CMDBUILD_VERSION/cmdbuild-$CMDBUILD_VERSION.zip
 
 # Temporary, will be updated for the next version
