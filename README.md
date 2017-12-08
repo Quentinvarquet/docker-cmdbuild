@@ -1,5 +1,5 @@
 
-# CMDBuild in Docker (Last version 2.4.3)
+# CMDBuild in Docker (Last version 2.5.0)
 
 ![cmdbuild_logo](http://www.cmdbuild.org/logo.png)
 
@@ -10,6 +10,11 @@
 
 **I recommend to use the latest version of cmdbuild with Tomcat 7**
 
+### You want the last version ?
+
+```bash
+docker run --name cmdbuild -p 8080:8080 -d quentinv/cmdbuild:latest
+```
 
 ### CMDBuild
 
@@ -19,10 +24,6 @@
 
 [Docker](https://www.docker.com/) allows you to package an application with all of its dependencies into a standardized unit for software development.
 
-More information : 
-
-* [What is docker](https://www.docker.com/what-docker)
-* [How to Create a Docker Business Case](https://www.brianchristner.io/how-to-create-a-docker-business-case/)
 
 ### Information
 
@@ -47,11 +48,7 @@ docker run --name cmdbuild -p 8080:8080 -d quentinv/cmdbuild:t7-2.1.4
 * **2.1.4** : Version of cmdbuild
 
 
-You want the last version ?
 
-```bash
-docker run --name cmdbuild -p 8080:8080 -d quentinv/cmdbuild:latest
-```
 
 #### Tags
 
