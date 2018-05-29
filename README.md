@@ -1,5 +1,5 @@
 
-# CMDBuild in Docker (Last version 2.5.0)
+# CMDBuild in Docker (Last version 2.5.1)
 
 ![cmdbuild_logo](http://www.cmdbuild.org/logo.png)
 
